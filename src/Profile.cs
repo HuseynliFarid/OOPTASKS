@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOPTASKS
+namespace OOPTASKS.src
 {
     // Profile class with properties for username and password
     internal class Profile

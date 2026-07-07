@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPTASKS.src;
+using System;
 namespace OOPTASKS
 {
    
@@ -25,6 +26,13 @@ namespace OOPTASKS
             profil.userName = "JohnDoe";
             profil._password = "secur123"; // Set the password using the property
             Console.WriteLine(profil._password);
+
+            //Inhertance and Polymorphism overriding
+            Car car = new Car();
+            car.CaRide(); // Calls the method in Car class
+            SportsCar sportsCar = new SportsCar();
+            sportsCar.CaRide(); // Calls the overridden method in SportsCar class
+
         }
     }
 }
