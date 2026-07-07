@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fridy\\OneDrive\\Desktop\\C#\\OOP sual cavab task\\OOPTASKS\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\calculatortask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:calculatortask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\booktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:booktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +39,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Store.cs",
+              "RelativeDocumentMoniker": "Store.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Store.cs",
+              "RelativeToolTip": "Store.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T10:53:56.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Readme.md",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Readme.md",
+              "RelativeDocumentMoniker": "Readme.md",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Readme.md",
+              "RelativeToolTip": "Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-02T22:25:27.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookTask.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\BookTask.cs",
+              "RelativeDocumentMoniker": "BookTask.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\BookTask.cs",
+              "RelativeToolTip": "BookTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T22:19:15.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculatorTask.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\CalculatorTask.cs",
+              "RelativeDocumentMoniker": "CalculatorTask.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\CalculatorTask.cs",
+              "RelativeToolTip": "CalculatorTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T22:17:58.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T22:05:36.074Z"
             }
           ]
         }
