@@ -7,6 +7,9 @@ namespace OOPTASKS
     {
         static void Main(string[] args)
         {
+            //    Easy Tasks 5
+
+
             // Create an instance of the Book class
             Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
 
@@ -32,6 +35,17 @@ namespace OOPTASKS
             car.CaRide(); // Calls the method in Car class
             SportsCar sportsCar = new SportsCar();
             sportsCar.CaRide(); // Calls the overridden method in SportsCar class
+
+
+
+            //   Normal Tasks  4
+
+
+            //Company Inheritance & Polymorphism
+            Employee employee = new Employee("John", "Doe", 30, -500);// returns 0 because salary is negative
+            Manager manager = new Manager("Jane", "Smith", 35, 700, 100); 
+            Console.WriteLine(manager.CalculateManagerSalary());// returns 800 because salary is 700 and bonus is 100
+            Console.WriteLine(employee._salary);
 
         }
     }
