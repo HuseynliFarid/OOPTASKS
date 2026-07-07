@@ -47,6 +47,13 @@ namespace OOPTASKS
             Console.WriteLine(manager.CalculateManagerSalary());// returns 800 because salary is 700 and bonus is 100
             Console.WriteLine(employee._salary);
 
+            //Animals abstarct class and inhertance
+            Dog dog = new Dog();
+            Cat cat = new Cat();
+            dog.MakeSound(); // Calls the overridden method in Dog class
+            cat.MakeSound(); // Calls the overridden method in Cat class
+            // Animals animal = new Animals(); // Cannot create an instance of the abstract class 'Animals' because it is abstract and cannot be instantiated
+
         }
     }
 }
