@@ -53,7 +53,23 @@ namespace OOPTASKS
             dog.MakeSound(); // Calls the overridden method in Dog class
             cat.MakeSound(); // Calls the overridden method in Cat class
             // Animals animal = new Animals(); // Cannot create an instance of the abstract class 'Animals' because it is abstract and cannot be instantiated
-
-        }
+            Console.WriteLine("______________________");
+            //Student class with encapsulation
+            List<Student> students = new List<Student>();
+            students.Add(new Student { Name = "Alice", Point = 85 });
+            students.Add(new Student { Name = "Bob", Point = 20 });
+            students.Add(new Student { Name = "Charlie", Point = 55 });
+            for (int i = 0; i < students.Count; i++)
+            {
+                if(students[i].Point < 50)
+                {
+                    Console.WriteLine($"Name: {students[i].Name}, Point: {students[i].Point} failed !");
+                }
+                else {
+                    Console.WriteLine($"Name: {students[i].Name}, Point: {students[i].Point} passed ");
+                }   
+            }
+        } 
     }
-}
+ }
+    

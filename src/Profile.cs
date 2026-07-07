@@ -10,7 +10,7 @@ namespace OOPTASKS.src
         public string userName;
         private string password;
 
-        public string _password
+        public string Password
         {
             get
             {
@@ -24,6 +24,11 @@ namespace OOPTASKS.src
                 }
                 else password = value;
             }
+        }
+        public Profile(string _userName, string _password)
+        {
+            userName = _userName;
+            Password = _password;
         }
     }
 }
