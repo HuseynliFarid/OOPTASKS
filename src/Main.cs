@@ -25,10 +25,10 @@ namespace OOPTASKS
             calculator.CalculateSum(5, 10, 15); // Calls the method with three parameters
 
             //Profile
-            Profile profil = new Profile();
-            profil.userName = "JohnDoe";
-            profil._password = "secur123"; // Set the password using the property
-            Console.WriteLine(profil._password);
+            Profile profil = new Profile("JohnDoe", "secur123");
+            // profil.userName = "JohnDoe";                 //after constructor, we can set the username directly
+            // profil.Password = "secur123"; // Set the password using the property
+            Console.WriteLine(profil.Password);
 
             //Inhertance and Polymorphism overriding
             Car car = new Car();
@@ -53,23 +53,33 @@ namespace OOPTASKS
             dog.MakeSound(); // Calls the overridden method in Dog class
             cat.MakeSound(); // Calls the overridden method in Cat class
             // Animals animal = new Animals(); // Cannot create an instance of the abstract class 'Animals' because it is abstract and cannot be instantiated
+
             Console.WriteLine("______________________");
+
             //Student class with encapsulation
-            List<Student> students = new List<Student>();
-            students.Add(new Student { Name = "Alice", Point = 85 });
-            students.Add(new Student { Name = "Bob", Point = 20 });
-            students.Add(new Student { Name = "Charlie", Point = 55 });
-            for (int i = 0; i < students.Count; i++)
-            {
-                if(students[i].Point < 50)
-                {
-                    Console.WriteLine($"Name: {students[i].Name}, Point: {students[i].Point} failed !");
-                }
-                else {
-                    Console.WriteLine($"Name: {students[i].Name}, Point: {students[i].Point} passed ");
-                }   
-            }
-        } 
+            //List<Student> students = new List<Student>();
+            //students.Add(new Student { Name = "Alice", Point = 85 });
+            //students.Add(new Student { Name = "Bob", Point = 20 });
+            //students.Add(new Student { Name = "Charlie", Point = 55 });
+            //for (int i = 0; i < students.Count; i++)
+            //{
+            //    if(students[i].Point < 50)
+            //    {
+            //        Console.WriteLine($"Name: {students[i].Name}, Point: {students[i].Point} failed !");
+            //    }
+            //    else {
+            //        Console.WriteLine($"Name: {students[i].Name}, Point: {students[i].Point} passed ");
+            //    }   
+            //}
+
+            //BankAccount class with encapsulation
+            BankAccount account = new BankAccount();
+            account.InputBalance(1000); // Set the initial balance
+            account.WithdrawBalance(1200); // Error : Insufficient balance
+            Console.WriteLine($"Current Balance: {account.GetBalance()}"); // Output: Current Balance: 1000
+
+            //
+        }
     }
  }
     
