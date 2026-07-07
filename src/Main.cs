@@ -15,6 +15,10 @@ namespace OOPTASKS
             product._price = -10; // Attempt to set a negative price (will be set to 0)
             Console.WriteLine(product._price);
 
+            //Calculate Overloading rules
+            Calculator calculator = new Calculator();
+            calculator.CalculateSum(5, 10); // Calls the method with two parameters
+            calculator.CalculateSum(5, 10, 15); // Calls the method with three parameters
         }
     }
 }
