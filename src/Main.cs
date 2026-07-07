@@ -87,8 +87,13 @@ namespace OOPTASKS
             //Find them
             storeMethod.findProducts("Laptop");
             storeMethod.findProducts("Smartphone");
-            
+
             //Final Task
+            HandPay payWithHand = new HandPay();
+            payWithHand.Pay(100);
+            CartPay payWithCart = new CartPay();
+            payWithCart.Pay(200);
+
         }
     }
  }
