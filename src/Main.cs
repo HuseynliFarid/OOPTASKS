@@ -19,6 +19,12 @@ namespace OOPTASKS
             Calculator calculator = new Calculator();
             calculator.CalculateSum(5, 10); // Calls the method with two parameters
             calculator.CalculateSum(5, 10, 15); // Calls the method with three parameters
+
+            //Profile
+            Profile profil = new Profile();
+            profil.userName = "JohnDoe";
+            profil._password = "secur123"; // Set the password using the property
+            Console.WriteLine(profil._password);
         }
     }
 }

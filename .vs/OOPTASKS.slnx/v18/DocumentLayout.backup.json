@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\src\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:src\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\src\\booktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:src\\booktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\src\\calculatortask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:src\\calculatortask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\src\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:src\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|c:\\c#\\oop sual cavab task\\ooptasks\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{8BB9DE24-64EB-9597-35A9-9B5D28B9F5B6}|OOPTASKS.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +46,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Profile.cs",
+              "RelativeDocumentMoniker": "Profile.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Profile.cs",
+              "RelativeToolTip": "Profile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T11:43:38.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookTask.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\BookTask.cs",
+              "RelativeDocumentMoniker": "src\\BookTask.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\BookTask.cs",
+              "RelativeToolTip": "src\\BookTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T11:38:27.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\Store.cs",
+              "RelativeDocumentMoniker": "src\\Store.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\Store.cs",
+              "RelativeToolTip": "src\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T11:36:51.682Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\Main.cs",
+              "RelativeDocumentMoniker": "src\\Main.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\Main.cs*",
+              "RelativeToolTip": "src\\Main.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T11:35:45.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculatorTask.cs",
+              "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\CalculatorTask.cs",
+              "RelativeDocumentMoniker": "src\\CalculatorTask.cs",
+              "ToolTip": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\src\\CalculatorTask.cs",
+              "RelativeToolTip": "src\\CalculatorTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T11:29:34.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Readme.md",
               "DocumentMoniker": "C:\\C#\\OOP sual cavab task\\OOPTASKS\\Readme.md",
               "RelativeDocumentMoniker": "Readme.md",
@@ -34,8 +117,7 @@
               "RelativeToolTip": "Readme.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-07-02T22:25:27.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T22:25:27.311Z"
             }
           ]
         }
