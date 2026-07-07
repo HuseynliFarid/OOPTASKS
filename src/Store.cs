@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOPTASKS
 {
-    internal class Product
+    internal class ProductSystem
     {
         private double price {  get; set; } // Private field to store the price
 

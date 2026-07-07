@@ -14,7 +14,7 @@ namespace OOPTASKS
             Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
 
             //Store 
-            Product product = new Product();
+            ProductSystem product = new ProductSystem();
             product._price = 25.99; // Set the price using the property
             product._price = -10; // Attempt to set a negative price (will be set to 0)
             Console.WriteLine(product._price);
@@ -77,8 +77,18 @@ namespace OOPTASKS
             account.InputBalance(1000); // Set the initial balance
             account.WithdrawBalance(1200); // Error : Insufficient balance
             Console.WriteLine($"Current Balance: {account.GetBalance()}"); // Output: Current Balance: 1000
-
-            //
+            Console.WriteLine("*************************");
+            //Mallstore class with encapsulation
+            MallStore storeMethod = new MallStore();
+          
+            storeMethod.products.Add(new Product { Name = "Laptop", Price = 1500 , StockCount = 10 });
+            storeMethod.products.Add(new Product { Name = "Smartphone", Price = 800 , StockCount = 20 });
+            storeMethod.products.Add(new Product { Name = "Headphones", Price = 150 , StockCount = 30 });
+            //Find them
+            storeMethod.findProducts("Laptop");
+            storeMethod.findProducts("Smartphone");
+            
+            //Final Task
         }
     }
  }
